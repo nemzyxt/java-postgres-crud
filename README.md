@@ -6,8 +6,7 @@ Interacting with Postgres using Java
 
 - Connecting to DB
 - Prepared statements
-- Inserting records (in batches)
-- Fetching records (in batches)
-- Updating records (in batches)
-- Deleting records (in batches)
-- Various optimization techniques
+- Inserting records
+- Fetching records
+- Updating records
+- Deleting records
