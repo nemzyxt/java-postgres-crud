@@ -5,7 +5,6 @@ Interacting with Postgres using Java
 ## Contents
 
 - Connecting to DB
-- Error handling
 - Prepared statements
 - Inserting records (in batches)
 - Fetching records (in batches)
