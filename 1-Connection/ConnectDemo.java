@@ -5,11 +5,13 @@ import java.sql.SQLException;
 public class ConnectDemo {
     public static void main(String[] args) {
         String url = 
-            "postgresql://ojlbhhnbkencjphbwbtkhgex%40psql-mock-database-cloud:nkcxqdjxpmvjoruwynhfvzvu@psql-mock-database-cloud.postgres.database.azure.com:5432/booking1686342304255dblcokyxcuipfkgl";
+            "jdbc:postgresql://localhost:5432/testdb";
+        String username = "postgres";
+        String password = "password123";
         Connection connection = null;
 
         try {
-            connection = DriverManager.getConnection(url);
+            connection = DriverManager.getConnection(url, username, password);
             System.out.println("[+] Successfully connected to DB");
         } catch (SQLException e) {
             System.out.println("[!] Error connecting to DB : " + e.getMessage());
