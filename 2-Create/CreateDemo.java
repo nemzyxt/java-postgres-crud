@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class InsertDemo {
+public class CreateDemo {
     public static void main(String[] args) {
         // choice of countries
         String[] countries = {"Kenya", "Egypt", "China", "Russia", "Uganda"};
