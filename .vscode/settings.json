@@ -1,0 +1,5 @@
+{
+    "java.project.referencedLibraries": [
+        "/home/nemzyxt/.jdbc/postgresql-42.6.0.jar"
+    ]
+}
