@@ -6,7 +6,9 @@ Interacting with Postgres using Java
 
 - Connecting to DB
 - Prepared statements
-- Inserting records
-- Fetching records
-- Updating records
-- Deleting records
+- Inserting records (Create)
+- Fetching records (Read)
+- Updating records (Update)
+- Deleting records (Delete)
+
+### Have fun :)
