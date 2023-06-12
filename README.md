@@ -2,6 +2,13 @@
 
 Interacting with Postgres using Java
 
+## Requirements
+
+- PostgreSQL
+- JDK
+- VS Code (code editor)
+- JDBC PostgreSQL Driver
+
 ## Contents
 
 - Connecting to DB
@@ -10,4 +17,4 @@ Interacting with Postgres using Java
 - Updating records (Update)
 - Deleting records (Delete)
 
-### Have fun :)
+### Have fun :), and keep practising !
